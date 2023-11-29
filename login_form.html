@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_form</title>
+
+
+    <style>
+        main {
+            display: grid;
+            margin: 100px;
+            padding: 20px;
+            width: 700px;
+            background-color: rgb(233, 236, 236);
+            gap: 20px;
+            ;
+            font-family: sans-serif;
+        }
+
+        .login_title {
+
+            text-align: center;
+        }
+
+        .login_second {
+            display: grid;
+            grid-template-columns: auto;
+            margin: 20px;
+            padding: 30px;
+            background-color: white;
+            justify-content: center;
+
+        }
+
+        .login_third {
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+            width: 100px;
+        }
+
+        input {
+            margin: 10px;
+            background-color: rgb(233, 236, 236);
+            width: 500px;
+            height: 30px;
+        }
+
+        label {
+            font-size: 12px;
+            text-indent: 10px;
+        }
+
+        span {
+            text-decoration-style: none;
+        }
+
+        ul {
+            list-style-type: none;
+            text-align: end;
+        }
+
+        ul>* {
+            font-size: 12px;
+            display: inline-block;
+        }
+
+        .login_button {
+
+            align-items: center;
+
+        }
+
+        button {
+            width: 400px;
+            background-color: blue;
+            color: white;
+            margin: 0px 100px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <main>
+
+        <form action="https://www.naver.com/" method="get"></form>
+
+        <div class="login_title">로그인</div>
+        <div class="login_second">
+            <div class="login_thrid">
+                <label>아이디(E-mail)</label>
+                <div>
+                    <input type="email" name="email" autofocus placeholder="아이디(E-mail)을 입력해 주세요.">
+                </div>
+
+                <label>비밀번호</label>
+
+                <div><input type="password" name="password" id="" autofocus placeholder="비밀번호를 입력해 주세요."></div>
+                <ul>
+                    <li><a href="https://www.naver.com/">아이디/ 비밀번호찾기</a></li>
+                    <li>|</li>
+                    <li><a href="https://www.naver.com/">회원가입</a></li>
+                </ul>
+            </div>
+
+            <div class="login_button">
+                <button type="submit">로그인</button>
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
