@@ -1,8 +1,7 @@
 * {
     border: 1px dotted black;
-    background-color: white;
 }
-nav >*,nav >*>*,nav >*>*>*,nav >*>*>*>*    {
+nav >*    {
     background-color: rgb(24, 24, 90);
     text-decoration: none;
     text-decoration-color: rgb(131, 131, 131);
