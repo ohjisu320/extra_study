@@ -1,6 +1,9 @@
 * {
     border: 1px dotted black;
 }
+#menu-all {
+    background-color: rgb(24, 24, 90);
+}
 nav >*    {
     background-color: rgb(24, 24, 90);
     text-decoration: none;
@@ -19,12 +22,12 @@ nav >*    {
     
 }
 
-a:link {
+ > a:link, nav > a:visited {
     color:white;
     text-decoration: none;
 
 }
-a:visited {
+ {
     color:white;
     text-decoration: none;
 }
