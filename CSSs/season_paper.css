@@ -10,10 +10,21 @@ nav >*    {
 #top-menu > div > a {
     text-decoration: none;
     text-decoration-color: aquamarine;
+    color:white;
 }
 #big-logo {
     justify-content: center;
 }
 #main-content {
     
+}
+
+a:link {
+    color:white;
+    text-decoration: none;
+
+}
+a:visited {
+    color:white;
+    text-decoration: none;
 }
