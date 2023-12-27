@@ -37,12 +37,12 @@ for x in range(count-1) :
 
     strike_sign=strike_sign_fun()
     ball_sign = ball_sign_fun()
-    sign = print("{}{}".format(strike_sign, ball_sign))
+    sign = print("{} {}".format(strike_sign, ball_sign))
 
-    if sign == "0S0B" :
+    if sign == "0S 0B" :
         print("out")
         break
-    elif sign == "3S0B" :
+    elif sign == "3S 0B" :
         break
     else :
         A,B,C = map(int, input("상대방의 예상 숫자 : ").split())
