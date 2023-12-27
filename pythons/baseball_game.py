@@ -1,7 +1,3 @@
-# A,B,C = map(int, input("상대방의 예상 숫자 : ").split())
-# count = int(input("play 숫자 : "))
-# a,b,c = map(int, input("나의 예상 숫자 : ").split()) 
-
 def strike_sign_fun(A,B,C,a,b,c) :
     if A==a and B==b and C==c :
         strike_sign="3S"
@@ -35,7 +31,8 @@ def ball_sign_fun(A,B,C,a,b,c) :
 def score_cal(a,b,c) :
     strike_sign=strike_sign_fun(A,B,C,a,b,c)
     ball_sign = ball_sign_fun(A,B,C,a,b,c)
-    sign = print("score : {} {}".format(strike_sign, ball_sign))
+    sign = "{} {}".format(strike_sign, ball_sign)
+    print("score : {}".format(sign))
     return sign
 
 def intro() :
